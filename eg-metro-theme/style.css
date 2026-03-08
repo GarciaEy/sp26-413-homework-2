@@ -1,0 +1,21 @@
+/* 
+Theme Name: eg-metro-theme
+Author: Eyanla Garcia
+Description: A metro-inspired theme for websites, featuring a clean and modern design with vibrant colors and simple typography.
+Version: 1.4
+ */
+
+body {
+  font-family: sans-serif;
+  background-color: lightcyan;
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2 {
+  color: grey;
+}
+a {
+  color: aqua;
+  text-decoration: none;
+}

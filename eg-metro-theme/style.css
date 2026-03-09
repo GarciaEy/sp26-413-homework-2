@@ -1,21 +1,100 @@
 /* 
 Theme Name: eg-metro-theme
 Author: Eyanla Garcia
-Description: A metro-inspired theme for websites, featuring a clean and modern design with vibrant colors and simple typography.
+Description: a simple metro report-like theme
 Version: 1.4
  */
 
 body {
   font-family: sans-serif;
-  background-color: lightcyan;
-  margin: 0px;
-  padding: 0px;
+  background-color: #f0f0f0;
+  margin: 0;
 }
-h1,
-h2 {
-  color: grey;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f0f0f0;
+  padding: 10px;
 }
 a {
-  color: aqua;
+  color: red;
   text-decoration: none;
+  font-size: 25px;
+}
+.hero h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+nav {
+  /* display: flex; */
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+nav a {
+  color: red;
+  font-size: 18px;
+}
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  max-width: 100%;
+  padding: 40px 0;
+}
+.p-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+}
+.p-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.p-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: red;
+}
+.p-title a {
+  color: crimson;
+  text-decoration: none;
+}
+.p-title a:hover {
+  color: darkred;
+}
+.p-date {
+  font-size: 14px;
+  color: crimson;
+}
+.p-excerpt {
+  font-size: 16px;
+  color: crimson;
+}
+.single-p {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+  color: red;
+  margin-top: 25px;
 }

@@ -7,3 +7,7 @@ eg-metro-theme is a theme designed for The Metro Report to showcase news article
 ### The Loop & Template Tags
 
 the loop is used throughout tje theme to display posts dynamically including the title, excerpt,featured image, date, author, and content.
+
+### final product
+
+![alt text](image.png)
